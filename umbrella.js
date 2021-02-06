@@ -5,7 +5,7 @@ class Umbrella{
             isStatic:true
         }
 
-        this.body= bodies.circle(x,y,50,options);
+        this.body= Bodies.circle(x,y,50,options);
         this.r=50;
         this.image=loadImage("images/Walking Frame/walking_1.png","images/Walking Frame/walking_2.png",
         "images/Walking Frame/walking_3.png","images/Walking Frame/walking_4.png",
@@ -17,6 +17,6 @@ class Umbrella{
     display(){
         var pos=this.body.position;
         imageMode(CENTER);
-        this.image(this.image,pos.x,pos.y+70,300,300);
+        image(this.image,pos.x,pos.y,300,300);
     }
 }

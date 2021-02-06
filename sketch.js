@@ -26,7 +26,7 @@ function setup(){
    umbrella= new Umbrella(200,500);
 
    for(var i=0; i<maxDrops; i++){
-    drops.push(new createDrops(random(0,600),random(0,600)));
+    drops.push(new Drops(random(0,600),random(0,600)));
    }
 }
 

@@ -21,6 +21,6 @@ class Drops{
     display(){
 
         fill("blue");
-         ellipse(0,0,this.r*2,this.r*2);
+         ellipse(this.body.position.x,this.body.position.y,this.r,this.r);
         }
 }
